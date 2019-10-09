@@ -1,11 +1,14 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
-
-import { AppComponent } from './app.component';
+import {BrowserModule} from '@angular/platform-browser';
+import {NgModule} from '@angular/core';
+import {AppComponent} from './app.component';
+import {BlockComponent} from './block/block.component';
+import {BlockStylesDirective} from './block/block-styles.directive';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BlockComponent,
+    BlockStylesDirective
   ],
   imports: [
     BrowserModule
